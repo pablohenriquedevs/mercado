@@ -1,0 +1,157 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(240, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li {
+  display: inline-block;  
+}
+
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+form input{
+    padding: 10px;
+    width: 500px;
+    
+}
+
+
+header{
+    background-color: gold;
+}
+
+#div-header{
+    width: 70%;
+    margin: 0% auto;
+}
+
+#codigo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black ;
+    display: none ;
+    background-color: rgb(29, 25, 25);
+   
+}
+
+.dropdown-menu a:hover{ 
+    background-color: rgb(53, 120, 245);
+}
+
+.dropdown-menu a{
+display: block; 
+color: aliceblue;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+ul{
+    font-size: 20px;
+}
+
+#imagem{
+    text-align: center;
+
+}
+#phrd{
+    text-align: center;
+}
+#h2{
+    font-size: 40px;
+    color: darkgray;
+    width:80%;
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+    text-align: center;
+}
+#supermercado{
+    text-align: center;
+
+}
+
+#supermercado img{
+    width: 85%;
+}
+
+#super img{
+    margin-left: 5%;
+    border-radius: 50%;
+    width: 150px;
+}
+
+#super{
+    text-align: center;
+}
+
+#celebrar{
+   margin: 5% 15%;
+}
+
+#comidas{
+    width: 250px;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#comesebebes{
+    display: flex;
+    margin-left: 15%;
+}
+
+#a img{
+   width: 1200px;
+   text-align: center;
+   margin-left: 17%;
+}
+
+#historico{
+    margin-top: 60%;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+   justify-content: center;
+   margin: 0% auto;
+   height: 550px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+
+#H{
+    margin-left: 20%;
+}
+
+#ofertas{
+    width: 50px;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+
+.oferta{
+    height: 195%;
+    width: 50px;
+    justify-content: center;
+}
+
+
